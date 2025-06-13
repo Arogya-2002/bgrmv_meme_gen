@@ -1,0 +1,25 @@
+#for removing bg dependencies
+rembg 
+onnxruntime
+pillow
+jinja2
+uvicorn
+fastapi
+python-multipart
+
+#for inpainting dependencies
+transformers 
+diffusers 
+torch 
+accelerate
+huggingface_hub[hf_xet]
+torchvision 
+python-dateutil
+
+#meme generator dependencies
+numpy
+pandas
+google-generativeai
+python-dotenv
+supabase
+pydantic
